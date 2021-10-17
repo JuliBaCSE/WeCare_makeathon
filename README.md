@@ -18,7 +18,9 @@ For my model i used as base the model described in [[3]]
   
   - for negative samples i used 4 different actions (brush_hair, draw_sword, catch, eat)
 
-  - the current model has an accuracy of 77% in testing
+  - the current model has an accuracy of 77% in testing 
+
+  - the recall is quite high with 1.0 (which was initially intended to detect each person who smokes and rather more False Postives than False Negatives) therefore it makes sence to reduce the weights of the positive examples to increase the precision
 
 To proceed:
 
