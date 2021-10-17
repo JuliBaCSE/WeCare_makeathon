@@ -4,7 +4,7 @@ In this makeathon from Tum.ai i was allowed to work on the social impact challen
 Here i had to build a system to detect people who are smokeing or going to smoke in public places like a petrol station
 
 My Approach:
-I wanted to create a human action recogntion algorithm that can classify people that are smoking.
+I wanted to create a human action recogntion algorithm that can classify people that are smoking. The idea is that it is often hard to detect smoke or cigarettes by themselves and its maybe easier to detect patterns of human movements.
 Due to the lack of data i decided to use a dataset like Kinetics or Hmdb51.
 Here i wanted to use a 3D CNN network as base model since 3D CNN can also preserve temporal information as stated in [[1]]
 
